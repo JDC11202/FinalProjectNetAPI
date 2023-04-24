@@ -1,4 +1,4 @@
-namespace FinalProjectNetAPI;
+namespace FinalProjectNetAPI.Models;
 
 public class WeatherForecast
 {
