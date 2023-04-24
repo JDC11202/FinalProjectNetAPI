@@ -12,4 +12,6 @@ public class UserHobbies
 
     public int Hobby3 { get; set; }
 
+    public string Hobby4 { get; set;}
+
 }
