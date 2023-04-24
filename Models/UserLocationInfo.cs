@@ -1,8 +1,8 @@
 namespace FinalProjectNetAPI.Models;
 
-public class BasicUserInfo
+public class UserLocationInfo
 {
-    public int ID { get; set; }
+    public int Id { get; set; }
     public string State { get; set; }
 
     public string City { get; set; }
