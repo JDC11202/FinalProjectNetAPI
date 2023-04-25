@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\FinalProj\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj": {}
+    "C:\\Users\\jcoll\\coreapps\\.vs\\coreapps\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj": {}
   },
   "projects": {
-    "E:\\FinalProj\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj": {
+    "C:\\Users\\jcoll\\coreapps\\.vs\\coreapps\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\FinalProj\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj",
+        "projectUniqueName": "C:\\Users\\jcoll\\coreapps\\.vs\\coreapps\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj",
         "projectName": "FinalProjectNetAPI",
-        "projectPath": "E:\\FinalProj\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj",
-        "packagesPath": "C:\\Users\\Dylan\\.nuget\\packages\\",
-        "outputPath": "E:\\FinalProj\\FinalProjectNetAPI\\obj\\",
+        "projectPath": "C:\\Users\\jcoll\\coreapps\\.vs\\coreapps\\FinalProjectNetAPI\\FinalProjectNetAPI.csproj",
+        "packagesPath": "C:\\Users\\jcoll\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jcoll\\coreapps\\.vs\\coreapps\\FinalProjectNetAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Dylan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jcoll\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -53,8 +53,14 @@
               "version": "[7.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "NSwag.AspNetCore": {
+              "target": "Package",
+              "version": "[13.18.2, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -80,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }
