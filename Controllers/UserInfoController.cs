@@ -5,24 +5,24 @@ namespace FinalProjectNetAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class BasicUserInfoController : ControllerBase
+public class UserInfoController : ControllerBase
 {
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
     };
 
-    private readonly ILogger<BasicUserInfoController> _logger;
+    private readonly ILogger<UserInfoController> _logger;
 
-    public BasicUserInfoController(ILogger<BasicUserInfoController> logger)
+    public UserInfoController(ILogger<UserInfoController> logger)
     {
         _logger = logger;
     }
 
-    [HttpGet(Name = "BasicUserInfo")]
+    [HttpGet(Name = "UserInfo")]
     public IActionResult Get()
     {
-        var personName = new BasicUserInfo {Name = "Jacob Collier"};
+        var personName = new UserInfo {Name = "Jacob Collier"};
         return Ok();
     }
 }
