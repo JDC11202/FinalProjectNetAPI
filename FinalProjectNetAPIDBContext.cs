@@ -1,11 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+
 public class FinalProjectNetAPIDBContext : DbContext {
-   public MyWebAPIDBContext(DbContextOptions<MyWebAPIDBContext> options) 
+   public FinalProjectNetAPIDBContext(DbContextOptions<FinalProjectNetAPIDBContext> options) 
 
 : base(options) 
 
 { 
 
-} 
+}
 public DbSet<UserInfo> TeamMembers { get; set; } 
 
 public DbSet<UserLocationInfo> UserLocation { get; set; } 
