@@ -6,10 +6,10 @@ public class UserMusic
 
     public int User_id { get; set; }
 
-    public int FavArtist { get; set; }
+    public string FavArtist { get; set; }
 
-    public int FavSong { get; set; }
+    public string FavSong { get; set; }
 
-    public int FavGenre { get; set; }
+    public string FavGenre { get; set; }
 
 }

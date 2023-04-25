@@ -6,10 +6,10 @@ public class UserFoods
 
     public int User_id { get; set; }
     
-    public int FavFruit { get; set; }
+    public string FavFruit { get; set; }
 
-    public int FavMeat { get; set; }
+    public string FavMeat { get; set; }
 
-    public int FavCuisine { get; set; }
+    public string FavCuisine { get; set; }
 
 }

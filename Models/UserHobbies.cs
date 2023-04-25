@@ -6,11 +6,11 @@ public class UserHobbies
 
     public int User_id { get; set; }
     
-    public int Hobby1 { get; set; }
+    public string Hobby1 { get; set; }
 
-    public int Hobby2 { get; set; }
+    public string Hobby2 { get; set; }
 
-    public int Hobby3 { get; set; }
+    public string Hobby3 { get; set; }
 
 
 }
