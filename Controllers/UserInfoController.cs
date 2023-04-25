@@ -22,7 +22,13 @@ public class UserInfoController : ControllerBase
     [HttpGet(Name = "UserInfo")]
     public IActionResult Get()
     {
-        var personName = new UserInfo {Name = "Jacob Collier"};
-        return Ok();
+        if (ID == null || ID == 0) 
+        { 
+            return await _context.TableName.Take(5).ToListAsync(); 
+        } 
+        else 
+        { 
+            return await _context.TableName.FindAsync(id); 
+        }
     }
 }
